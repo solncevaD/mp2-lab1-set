@@ -45,7 +45,7 @@ public:
 
   friend istream &operator>>(istream &istr, TBitField &bf);       //      (#О7)
   friend ostream &operator<<(ostream &ostr, const TBitField &bf); //      (#П4)
-};
+};//привет
 // Структура хранения битового поля
 //   бит.поле - набор битов с номерами от 0 до BitLen
 //   массив pМем рассматривается как последовательность MemLen элементов
